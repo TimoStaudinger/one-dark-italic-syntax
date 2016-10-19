@@ -1,7 +1,7 @@
 {
   "name": "one-dark-italic-syntax",
   "theme": "syntax",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A fork of Atom's One Dark syntax theme featuring italics",
   "keywords": [
     "dark",
