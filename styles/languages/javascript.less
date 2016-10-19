@@ -1,17 +1,24 @@
-.syntax--source.syntax--js {
-  .syntax--keyword.syntax--operator {
+.source.js {
+  .keyword.operator {
     color: @hue-1;
 
-    // keywords are definded in https://github.syntax--com/atom/language-javascript/blob/master/grammars/javascript.syntax--cson
+    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
     // search "instanceof" for location
-    &.syntax--delete,
-    &.syntax--in,
-    &.syntax--of,
-    &.syntax--instanceof,
-    &.syntax--new,
-    &.syntax--typeof,
-    &.syntax--void {
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
       color: @hue-3;
     }
+  }
+
+  .variable:not(.other):not(.parameter), .storage.modifier, .storage.type:not(.function) {
+    font-style: italic;
+  }
+  .entity.other.attribute-name {
+    font-style: italic;
   }
 }

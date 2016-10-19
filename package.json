@@ -1,14 +1,17 @@
 {
-  "name": "one-dark-syntax",
+  "name": "one-dark-italic-syntax",
   "theme": "syntax",
-  "version": "1.6.0",
-  "description": "A dark syntax theme",
+  "version": "0.0.1",
+  "description": "A fork of Atom's One Dark syntax theme featuring italics",
   "keywords": [
     "dark",
     "blue",
-    "syntax"
+    "syntax",
+    "italics",
+    "operator",
+    "mono"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/timosta/one-dark-italic-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

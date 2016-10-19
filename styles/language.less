@@ -1,261 +1,260 @@
 // Language syntax highlighting
-
-.syntax--comment {
+.comment {
   color: @mono-3;
   font-style: italic;
 
-  .syntax--markup.syntax--link {
+  .markup.link {
     color: @mono-3;
   }
 }
 
-.syntax--entity {
+.entity {
 
-  &.syntax--name.syntax--type {
+  &.name.type {
     color: @hue-6-2;
   }
 
-  &.syntax--other.syntax--inherited-class {
+  &.other.inherited-class {
     color: @hue-4;
   }
 }
 
-.syntax--keyword {
+.keyword {
   color: @hue-3;
 
-  &.syntax--control {
+  &.control {
     color: @hue-3;
   }
 
-  &.syntax--operator {
+  &.operator {
     color: @mono-1;
   }
 
-  &.syntax--other.syntax--special-method {
+  &.other.special-method {
     color: @hue-2;
   }
 
-  &.syntax--other.syntax--unit {
+  &.other.syntax--unit {
     color: @hue-6;
   }
 }
 
-.syntax--storage {
+.storage {
   color: @hue-3;
 
-  &.syntax--type {
-    &.syntax--annotation,
-    &.syntax--primitive {
+  &.type {
+    &.annotation,
+    &.primitive {
       color: @hue-3;
     }
   }
 
-  &.syntax--modifier {
-    &.syntax--package,
-    &.syntax--import {
+  &.modifier {
+    &.package,
+    &.import {
       color: @mono-1;
     }
   }
 }
 
-.syntax--constant {
+.constant {
   color: @hue-6;
 
-  &.syntax--variable {
+  &.variable {
     color: @hue-6;
   }
 
-  &.syntax--character.syntax--escape {
+  &.character.escape {
     color: @hue-1;
   }
 
-  &.syntax--numeric {
+  &.numeric {
     color: @hue-6;
   }
 
-  &.syntax--other.syntax--color {
+  &.other.color {
     color: @hue-1;
   }
 
-  &.syntax--other.syntax--symbol {
+  &.other.symbol {
     color: @hue-1;
   }
 }
 
-.syntax--variable {
+.variable {
   color: @hue-5;
 
-  &.syntax--interpolation {
+  &.interpolation {
     color: @hue-5-2;
   }
 
-  &.syntax--parameter {
+  &.parameter {
     color: @mono-1;
   }
 }
 
-.syntax--string {
+.string {
   color: @hue-4;
 
 
-  &.syntax--regexp {
+  &.regexp {
     color: @hue-1;
 
-    .syntax--source.syntax--ruby.syntax--embedded {
+    .source.ruby.embedded {
       color: @hue-6-2;
     }
   }
 
-  &.syntax--other.syntax--link {
+  &.other.link {
     color: @hue-5;
   }
 }
 
-.syntax--punctuation {
-  &.syntax--definition {
-    &.syntax--comment {
+.punctuation {
+  &.definition {
+    &.comment {
       color: @mono-3;
     }
 
-    &.syntax--method-parameters,
-    &.syntax--function-parameters,
-    &.syntax--parameters,
-    &.syntax--separator,
-    &.syntax--seperator,
-    &.syntax--array {
+    &.method-parameters,
+    &.function-parameters,
+    &.parameters,
+    &.separator,
+    &.seperator,
+    &.array {
       color: @mono-1;
     }
 
-    &.syntax--heading,
-    &.syntax--identity {
+    &.heading,
+    &.identity {
       color: @hue-2;
     }
 
-    &.syntax--bold {
+    &.bold {
       color: @hue-6-2;
       font-weight: bold;
     }
 
-    &.syntax--italic {
+    &.italic {
       color: @hue-3;
       font-style: italic;
     }
   }
 
-  &.syntax--section {
-    &.syntax--embedded {
+  &.section {
+    &.embedded {
       color: @hue-5-2;
     }
 
-    &.syntax--method,
-    &.syntax--class,
-    &.syntax--inner-class {
+    &.method,
+    &.class,
+    &.inner-class {
       color: @mono-1;
     }
   }
 }
 
-.syntax--support {
-  &.syntax--class {
+.support {
+  &.class {
     color: @hue-6-2;
   }
 
-  &.syntax--type {
+  &.type {
     color: @hue-1;
   }
 
-  &.syntax--function  {
+  &.function  {
     color: @hue-1;
 
-    &.syntax--any-method {
+    &.any-method {
       color: @hue-2;
     }
   }
 }
 
-.syntax--entity {
-  &.syntax--name.syntax--function {
+.entity {
+  &.name.function {
     color: @hue-2;
   }
 
-  &.syntax--name.syntax--class,
-  &.syntax--name.syntax--type.syntax--class {
+  &.name.class,
+  &.name.type.class {
     color: @hue-6-2;
   }
 
-  &.syntax--name.syntax--section {
+  &.name.section {
     color: @hue-2;
   }
 
-  &.syntax--name.syntax--tag {
+  &.name.tag {
     color: @hue-5;
   }
 
-  &.syntax--other.syntax--attribute-name {
+  &.other.attribute-name {
     color: @hue-6;
 
-    &.syntax--id {
+    &.id {
       color: @hue-2;
     }
   }
 }
 
-.syntax--meta {
-  &.syntax--class {
+.meta {
+  &.class {
     color: @hue-6-2;
 
-    &.syntax--body {
+    &.body {
       color: @mono-1;
     }
   }
 
-  &.syntax--method-call,
-  &.syntax--method {
+  &.method-call,
+  &.method {
     color: @mono-1;
   }
 
-  &.syntax--definition {
-    &.syntax--variable {
+  &.definition {
+    &.variable {
       color: @hue-5;
     }
   }
 
-  &.syntax--link {
+  &.link {
     color: @hue-6;
   }
 
-  &.syntax--require {
+  &.require {
     color: @hue-2;
   }
 
-  &.syntax--selector {
+  &.selector {
     color: @hue-3;
   }
 
-  &.syntax--separator {
+  &.separator {
     background-color: #373b41;
     color: @mono-1;
   }
 
-  &.syntax--tag {
+  &.tag {
     color: @mono-1;
   }
 }
 
-.syntax--underline {
+.underline {
   text-decoration: underline;
 }
 
-.syntax--none {
+.none {
   color: @mono-1;
 }
 
-.syntax--invalid {
-  &.syntax--deprecated {
+.invalid {
+  &.deprecated {
     color: @syntax-deprecated-fg !important;
     background-color: @syntax-deprecated-bg !important;
   }
-  &.syntax--illegal {
+  &.illegal {
     color: @syntax-illegal-fg !important;
     background-color: @syntax-illegal-bg !important;
   }
@@ -263,46 +262,46 @@
 
 // Languages -------------------------------------------------
 
-.syntax--markup {
-  &.syntax--bold {
+.markup {
+  &.bold {
     color: @hue-6;
     font-weight: bold;
   }
 
-  &.syntax--changed {
+  &.changed {
     color: @hue-3;
   }
 
-  &.syntax--deleted {
+  &.deleted {
     color: @hue-5;
   }
 
-  &.syntax--italic {
+  &.italic {
     color: @hue-3;
     font-style: italic;
   }
 
-  &.syntax--heading {
+  &.heading {
     color: @hue-5;
 
-    .syntax--punctuation.syntax--definition.syntax--heading {
+    .punctuation.definition.heading {
       color: @hue-2;
     }
   }
 
-  &.syntax--link {
+  &.link {
     color: @hue-3;
   }
 
-  &.syntax--inserted {
+  &.inserted {
     color: @hue-4;
   }
 
-  &.syntax--quote {
+  &.quote {
     color: @hue-6;
   }
 
-  &.syntax--raw {
+  &.raw {
     color: @hue-4;
   }
 }
