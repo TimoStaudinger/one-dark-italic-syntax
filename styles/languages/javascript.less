@@ -13,9 +13,16 @@
     &.void {
       color: @hue-3;
     }
+
+    &.in,
+    &.of,
+    &.instanceof,
+    &.typeof {
+      font-style: italic;
+    }
   }
 
-  .variable:not(.other):not(.parameter), .storage.modifier, .storage.type:not(.function) {
+  .variable:not(.other):not(.parameter) {
     font-style: italic;
   }
   .entity.other.attribute-name {

@@ -1,19 +1,12 @@
-const CommentList = React.createClass({
-  render: function() {
-    return (
-      <div className="commentList">
-        Hello, world! I am a CommentList.
-      </div>
-    );
-  }
-});
+import React from 'react'
 
-const CommentForm = React.createClass({
+class HelloWorld extends React.Component {
   render: function() {
     return (
-      <div className="commentForm">
-        Hello, world! I am a CommentForm.
+      <div className="hello-world">
+        Hello, world! I am {this.props.name}.
+        Hello World is a {typeof HelloWorld}
       </div>
     );
   }
-});
+};
