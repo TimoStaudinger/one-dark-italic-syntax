@@ -1,11 +1,11 @@
 import React from 'react'
 
 class HelloWorld extends React.Component {
-  render: function() {
+  render() {
     return (
       <div className="hello-world">
         Hello, world! I am {this.props.name}.
-        Hello World is a {typeof HelloWorld}
+        HelloWorld is a {typeof HelloWorld}.
       </div>
     );
   }
