@@ -14,5 +14,6 @@ So far, the following languages have been extended with italic accents:
 - JavaScript
 - JSX
 - HTML
+- Python
 
 More to come. Feel free to contribute via pull requests!
