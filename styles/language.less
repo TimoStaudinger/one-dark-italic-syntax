@@ -1,6 +1,6 @@
 .syntax--comment {
   color: @mono-3;
-  font-style: italic;
+  // font-style: italic;
 
   .syntax--markup.syntax--link {
     color: @mono-3;
@@ -10,6 +10,7 @@
 .syntax--entity {
   &.syntax--name.syntax--type {
     color: @hue-6-2;
+    font-style: italic;
   }
 
   &.syntax--other.syntax--inherited-class {
@@ -19,6 +20,7 @@
 
 .syntax--keyword {
   color: @hue-3;
+  font-style: italic;
 
   &.syntax--control {
     color: @hue-3;
@@ -44,6 +46,7 @@
     &.syntax--annotation,
     &.syntax--primitive {
       color: @hue-3;
+      font-style: italic;
     }
   }
 
@@ -51,12 +54,14 @@
     &.syntax--package,
     &.syntax--import {
       color: @mono-1;
+      font-style: italic;
     }
   }
 }
 
 .syntax--constant {
   color: @hue-6;
+  font-style: italic;
 
   &.syntax--variable {
     color: @hue-6;
@@ -88,6 +93,7 @@
 
   &.syntax--parameter {
     color: @mono-1;
+    font-style: italic;
   }
 }
 
@@ -148,6 +154,7 @@
     &.syntax--class,
     &.syntax--inner-class {
       color: @mono-1;
+      font-style: italic;
     }
   }
 }
@@ -159,6 +166,7 @@
 
   &.syntax--type {
     color: @hue-1;
+    font-style: italic;
   }
 
   &.syntax--function  {
@@ -214,6 +222,7 @@
   &.syntax--definition {
     &.syntax--variable {
       color: @hue-5;
+      font-style: italic;
     }
   }
 
