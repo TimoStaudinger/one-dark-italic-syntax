@@ -1,6 +1,6 @@
 .syntax--comment {
   color: @mono-3;
-  font-style: italic;
+  // font-style: italic;
 
   .syntax--markup.syntax--link {
     color: @mono-3;
@@ -19,9 +19,12 @@
 
 .syntax--keyword {
   color: @hue-3;
+  font-style: italic;
+
 
   &.syntax--control {
     color: @hue-3;
+    font-style: italic;
   }
 
   &.syntax--operator {
@@ -30,6 +33,7 @@
 
   &.syntax--other.syntax--special-method {
     color: @hue-2;
+    font-style: italic;
   }
 
   &.syntax--other.syntax--unit {
@@ -39,11 +43,13 @@
 
 .syntax--storage {
   color: @hue-3;
+  font-style: italic;
 
   &.syntax--type {
     &.syntax--annotation,
     &.syntax--primitive {
       color: @hue-3;
+      font-style: italic;
     }
   }
 
@@ -64,14 +70,17 @@
 
   &.syntax--character.syntax--escape {
     color: @hue-1;
+    font-style: italic;
   }
 
   &.syntax--numeric {
     color: @hue-6;
+    font-style: italic;
   }
 
   &.syntax--other.syntax--color {
     color: @hue-1;
+    font-style: italic;
   }
 
   &.syntax--other.syntax--symbol {
@@ -81,6 +90,7 @@
 
 .syntax--variable {
   color: @hue-5;
+  font-style: italic;
 
   &.syntax--interpolation {
     color: @hue-5-2;
@@ -105,6 +115,7 @@
 
   &.syntax--other.syntax--link {
     color: @hue-5;
+    font-style: italic;
   }
 }
 
@@ -142,6 +153,7 @@
   &.syntax--section {
     &.syntax--embedded {
       color: @hue-5-2;
+      font-style: italic;
     }
 
     &.syntax--method,
@@ -159,6 +171,7 @@
 
   &.syntax--type {
     color: @hue-1;
+    font-style: italic;
   }
 
   &.syntax--function  {
@@ -166,6 +179,7 @@
 
     &.syntax--any-method {
       color: @hue-2;
+      font-style: italic;
     }
   }
 }
@@ -227,6 +241,7 @@
 
   &.syntax--selector {
     color: @hue-3;
+    font-style: italic;
   }
 
   &.syntax--separator {
@@ -268,6 +283,7 @@
 
   &.syntax--changed {
     color: @hue-3;
+    font-style: italic;
   }
 
   &.syntax--deleted {
@@ -289,6 +305,7 @@
 
   &.syntax--link {
     color: @hue-3;
+    font-style: italic;
   }
 
   &.syntax--inserted {
